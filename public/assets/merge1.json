@@ -1,0 +1,73 @@
+{
+    "user/js/": [
+        {
+            "type": "js",
+            "files": [
+                "@merge-common/js/notify.js",
+                "@merge-common/js/highlight-current.js",
+                "index/common.js",
+                "index/tree.js",
+                "index/operate-bar.js",
+                "index/list.js",
+                "index/upload.js",
+                "index/__call__.js"
+            ],
+            "target": "index.js",
+            "require_import" : "'layui', 'jquery', 'utils', 'dialog', 'md5', 'store', 'scrollbar', 'treeview', 'contextmenu', 'bootstrap-notify', 'jquery-fileupload'",
+            "require_export" : "layui, $, utils, dialog, md5, store"
+        },
+        {
+            "type": "js",
+            "files": [
+                "@merge-common/js/notify.js",
+                "@merge-common/js/highlight-current.js",
+                "@merge-common/js/fs-picker.js",
+                "asset/common.js",
+                "asset/overview.js",
+                "asset/add.js",
+                "asset/operation.js",
+                "asset/__call__.js"
+            ],
+            "target": "asset.js",
+            "require_import" : "'jquery', 'utils', 'dialog', 'scrollbar', 'bootstrap-notify'",
+            "require_export" : "$, utils, dialog"
+        },
+        {
+            "type": "js",
+            "files": [
+                "@merge-common/js/notify.js",
+                "@merge-common/js/highlight-current.js",
+                "version/list.js",
+                "version/operation.js",
+                "version/__call__.js"
+            ],
+            "target": "version.js",
+            "require_import" : "'jquery', 'utils', 'dialog', 'bootstrap-notify'",
+            "require_export" : "$, utils, dialog"
+        }
+    ],
+    "user/css/": [
+        {
+            "type": "css",
+            "files": [
+                "index/sidebar.css",
+                "index/fs-tree.css",
+                "index/page-main.css",
+                "index/operate-bar.css",
+                "index/table-list.css",
+                "index/upload.css"
+            ],
+            "target": "index.css"
+        },
+        {
+            "type": "css",
+            "files": [
+                "@merge-common/css/fs-picker.css",
+                "asset/table-list.css",
+                "asset/add.css",
+                "asset/main.css"
+            ],
+            "target": "asset.css"
+        }
+    ]
+}

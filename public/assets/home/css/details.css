@@ -1,0 +1,11 @@
+@charset "UTF-8";
+html {
+	background-color: #f4f4f4;
+}
+
+.nowrap{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 277px;
+}

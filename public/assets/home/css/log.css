@@ -1,0 +1,47 @@
+body{
+	background-color: #f4f4f4;
+}
+.banner {
+    position: relative;
+    padding: 15px;
+    background-color: #4ed8bd;
+    color: white;
+    margin-bottom: 10px;
+}
+.logs{
+    background-color: #fff;
+}
+.log-item:after {
+    display: block;
+    content: "";
+    width: 1px;
+    height: 35px;
+    margin-top: 15px;
+    border-left: 1px solid #a2a2a2;
+    margin-left: 10vw;
+}
+p.log-time {
+    float: left;
+    display: block;
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+p.log-content {
+    float: left;
+    transform: translateY(20px);
+    display: inline-block;
+    width: 80vw;
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: normal;
+    font-size: 14px;
+}
+.log-line {
+    clear: both;
+}   
+.light {
+    color: #a2a2a2;
+}
